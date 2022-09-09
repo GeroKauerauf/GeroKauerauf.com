@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Gero<br>Kauerauf'
+tagtitle:         'Gero Kauerauf'
+description:      'Graduate Computer Science Student at RWTH Aachen University'
+url:              https://www.gerokauerauf.com
+baseurl:          ''
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+plugins:
+  - jekyll-paginate
+
+paginate:         5
+
+# Custom vars
+version:          1.0
+
+link:
+  repo:           https://github.com/gerokauerauf
+  linkedin:       https://de.linkedin.com/in/gero-kauerauf
+  email:          ''

@@ -1,0 +1,144 @@
+/*
+  Gero resume css with lots of love
+*/
+
+.heading {
+  margin-top: -5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+.heading > h1 {
+  color: #003366;
+  margin-bottom: 1rem;
+  font-size: 360%;
+}
+
+.heading > a {
+  font-size: 140%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+  
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fixed {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: #003366;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 1rem;
+
+  flex-grow: 1;
+  flex-basis: 70%;
+  flex-shrink: 3;
+
+}
+
+.flex-item{
+  padding: 1rem;
+
+  flex-grow: 1;
+  flex-basis: 30%;
+  flex-shrink: 1;
+
+  min-width: 15rem; /* Magic threshold for flex-wrap */
+}
+
+.whoami {
+  background-color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.01rem;
+  padding-top: 0.01rem;
+
+  margin-bottom: 1rem;
+  border-radius: 1rem
+}
+
+.education {
+  background-color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.01rem;
+  padding-top: 0.01rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem
+}
+.education table tr td {
+  background-color: aliceblue;
+  border: none;
+}
+.education table {
+  border: none;
+}
+.education table tr .edu-timespan {
+  text-align: right;
+}
+.education table tr .edu-title {
+  color: #c40040;
+}
+.education table tr .edu-desc {
+  margin-left: 1rem;
+}
+
+
+.experience {
+  background-color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.01rem;
+  padding-top: 0.01rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem
+}
+.experience table tr td {
+  background-color: aliceblue;
+  border: none;
+}
+.experience table {
+  border: none;
+}
+.experience table tr .work-timespan {
+  text-align: right;
+}
+.experience table tr .job-title {
+  color: #c40040;
+}
+.experience table tr .job-desc {
+  margin-left: 1rem;
+}
+
+
+.skills-interests {
+  background-color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.01rem;
+  padding-top: 0.01rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem
+}
+.skills-interests p {
+  color:#003366;
+}
+
+.picture {
+  text-align: center;
+}
+
+.picture > img {
+  /* margin: auto;
+  display: block;
+  width: 50rem; */
+  border-radius: 1rem;
+}
